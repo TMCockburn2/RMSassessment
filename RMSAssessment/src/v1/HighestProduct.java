@@ -2,7 +2,9 @@ package v1;
 
 public class HighestProduct {
 	
+	//testing purposes
 	
+	/**
 	public static void main(String[]args){
 		int arr[][] = {{1, 2, 3, 4, 5}, 
                 {6, 7, 8, 9, 1}, 
@@ -12,6 +14,7 @@ public class HighestProduct {
 		System.out.println(prod);
 		
 	}
+	**/
 	//grid = matrix, length = number of rows/columns we are comparing
 	public static long findProduct(int[][]grid, int length){
 		//number would have to be greater than how many adjacent numbers we are comparing
